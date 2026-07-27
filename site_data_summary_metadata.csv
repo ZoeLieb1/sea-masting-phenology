@@ -1,0 +1,16 @@
+column,description,units_or_format
+site,"Canonical site name used throughout the dataset and analysis. Where multiple nearby locations were merged (see merged_areas), this is the merged site name.",text
+area,"Broader administrative/geographic region containing the site (e.g. Sabah, Sarawak, Peninsular Malaysia, West Kalimantan).",text
+lat,"Latitude of the site, in decimal degrees. Positive = north of the equator, negative = south.",decimal degrees
+long,"Longitude of the site, in decimal degrees.",decimal degrees
+merged_areas,"Notes on nearby locations that were merged into this site during data harmonisation, and why. Blank if no merge occurred.",text
+dataset_name,"Internal identifier for the underlying data source contributing this row (e.g. FRIM, Lambir, Literature_review, additional_contributed_obs). One site can have multiple rows, one per contributing dataset_name.",text
+data_source_types,"Human-readable category of the data source(s) for this row: long-term monitoring, unpublished long-term, expert observations, or literature review.",text
+period_start,"Earliest month of observation for this site/dataset_name combination.",date (YYYY-MM-DD; day is always the 1st of the month)
+period_end,"Latest month of observation for this site/dataset_name combination.",date (YYYY-MM-DD; day is always the 1st of the month)
+dipterocarp_only,"TRUE if the underlying dataset was subset to dipterocarp trees only prior to proportional/threshold analysis; FALSE if all species were included; NA if not applicable (e.g. literature review and expert-observation records report presence/absence of masting directly, without tree-level subsetting).",logical (TRUE/FALSE/NA)
+fl_threshold,"Numeric threshold value used to classify a flowering (FL) event from the underlying proportional data for this dataset_name. NA where thresholding was not used (e.g. literature review, expert observations).",decimal (proportion, 0-1)
+fl_threshold_method,"Statistical method used to derive fl_threshold: GMM (Gaussian mixture model) or Q95 (95th percentile). NA where not applicable.",text
+fr_threshold,"Numeric threshold value used to classify a fruiting (FR) event from the underlying proportional data for this dataset_name. NA where thresholding was not used, or where fruiting data were not available for this dataset (e.g. Pasoh).",decimal (proportion, 0-1)
+fr_threshold_method,"Statistical method used to derive fr_threshold: GMM or Q95. NA where not applicable.",text
+citations,"Short-form citation(s) of the literature source(s) contributing to this row, formatted as (Author et al. Year), semicolon-separated if multiple. NA for non-literature data sources.",text

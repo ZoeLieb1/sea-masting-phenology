@@ -1,0 +1,21 @@
+column,description,units_or_format
+covidence_id,"Identifier linking this row to its source literature review record (from the Covidence systematic review tool). Non-literature rows (long-term monitoring, expert observations) are assigned a placeholder value of 666.",integer or text
+dataset_name,"Internal identifier for the contributing dataset (e.g. FRIM, Lambir, Pasoh, Gunung_Palung, Bukit_Timah, Gunung_Tarak, BBBR, additional_contributed_obs, Literature_review). See site_data_summary.csv for the mapping to human-readable data source types.",text
+source,"Human-readable data source type: long-term monitoring, unpublished long-term, expert observations, or literature review.",text
+short_cite,"Short-form citation of the literature source, e.g. 'Numata et al. 2012'. NA for non-literature rows.",text
+spec_site,"Specific sub-location or plot name within the site, as originally reported by the data source (e.g. a named research plot). May differ in granularity from 'site'.",text
+site,"Canonical, harmonised site name. Matches the site names used in site_data_summary.csv.",text
+WDPA.ID,"World Database on Protected Areas identifier for the site, where available.",integer or NA
+lat,"Latitude of the site, in decimal degrees.",decimal degrees
+long,"Longitude of the site, in decimal degrees.",decimal degrees
+area,"Broader administrative/geographic region containing the site.",text
+plot_size_ha,"Size of the monitoring plot or study area, in hectares, where reported.",hectares
+forest_type,"Forest type classification for the site, where reported.",text
+is_fl_onset,"TRUE if this site-month marks the onset (first month) of a discrete flowering event, based on either explicit onset dates (literature review) or detection of a new run of active months following a gap (all other sources).",logical (TRUE/FALSE)
+is_fr_onset,"TRUE if this site-month marks the onset of a discrete fruiting event, using the same onset-detection logic as is_fl_onset.",logical (TRUE/FALSE)
+current_month_year,"The calendar month and year this row represents, as a formatted string (used to derive month_date).",text (e.g. 'August 2001')
+phenophase,"The observed reproductive phenophase for this site-month: FL (flowering), FR (fruiting), or none (observed, but no flowering or fruiting recorded). NA if the month was not observed for this event_type.",text (FL / FR / none / NA)
+event_type,"Which phenophase this row's threshold/onset logic applies to: FL or FR. Long-term monitoring datasets contribute one row per site-month per event_type.",text (FL / FR)
+threshold_used,"The numeric proportional threshold applied to classify this site-month as masting (FL/FR) vs. not, for datasets using proportional thresholding. NA for literature review and expert-observation rows, which report presence/absence directly rather than via a proportional threshold.",decimal (proportion, 0-1) or NA
+method,"Observation method used to collect the underlying data, as reported by the source (e.g. binoculars, seed traps, canopy observation system).",text
+month_date,"The first day of the calendar month represented by this row, derived from current_month_year. Used as the primary date field for all time-series and onset analyses.",date (YYYY-MM-DD)
