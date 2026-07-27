@@ -3,8 +3,8 @@ message: "If you use this data or code, please cite the associated paper. If you
 title: "Southeast Asian Masting Phenology: Data and Analysis Code"
 authors:
   - family-names: "Lieb"
-    given-names: "Zoë"
-    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # add if you have one
+    given-names: "Zoë Evans"
+    # orcid: "https://orcid.org/0000-0003-3976-3390"
 repository-code: "https://github.com/ZoeLieb1/sea-masting-phenology"
 license: MIT
 version: 0.1.0
