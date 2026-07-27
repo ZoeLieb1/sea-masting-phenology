@@ -57,4 +57,4 @@ If you use this data or code, please cite:
 
 ## Contact
 
-Zoë Lieb — [email]
+Zoë Lieb — zoelieb1@gmail.com
