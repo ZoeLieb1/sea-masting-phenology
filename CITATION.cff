@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite the associated paper. If you use the repository itself (e.g. the code), you may also cite it directly using the metadata below."
+title: "Southeast Asian Masting Phenology: Data and Analysis Code"
+authors:
+  - family-names: "Lieb"
+    given-names: "Zoë"
+    # orcid: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # add if you have one
+repository-code: "https://github.com/ZoeLieb1/sea-masting-phenology"
+license: MIT
+version: 0.1.0
+date-released: "2026-07-27"
+preferred-citation:
+  type: article
+  title: "[Paper title]"                      # TODO: update once finalised
+  authors:
+    - family-names: "Lieb"
+      given-names: "Zoë"
+    # add co-authors here in order
+  journal: "Ecology Letters"
+  year: 2026                                   # TODO: update to publication year
+  status: "in-review"                          # TODO: change to published status
+  # volume: ""                                 # TODO: add on publication
+  # issue: ""                                  # TODO: add on publication
+  # start: ""                                  # TODO: add page range on publication
+  # end: ""
+  # doi: ""                                    # TODO: add paper DOI on publication
