@@ -6,12 +6,12 @@ Data and analysis code accompanying:
 
 ## Contents
 
-- `data/sea_phenology_combined_data.csv` — the full processed dataset used
+- `sea_phenology_combined_data.csv` — the full processed dataset used
   in all analyses: one row per site, month, and event type (flowering/
   fruiting), synthesised from long-term monitoring, expert observations,
   and a systematic literature review across 26 sites in Southeast Asia.
 
-- `data/sea_masting_literature_review_events.csv` — masting events
+- `sea_masting_literature_review_events.csv` — masting events
   extracted from a systematic literature review of general flowering and
   mast fruiting research in Southeast Asia (Lieb et al. 2026). One row per
   reported flowering or fruiting event, with citation, site, and reported
@@ -22,18 +22,18 @@ Data and analysis code accompanying:
   merged into `sea_phenology_combined_data.csv` alongside all other
   sources.
 
-- `data/site_data_summary.csv` — a site-level summary table (one row per
+- `site_data_summary.csv` — a site-level summary table (one row per
   site x contributing data source) documenting observation periods,
   dipterocarp-only status, onset-detection threshold methods, and source
   citations for each site.
 
-- `metadata/sea_phenology_combined_data_metadata.csv` — column definitions
+- `sea_phenology_combined_data_metadata.csv` — column definitions
   and units for the combined dataset.
 
-- `metadata/site_data_summary_metadata.csv` — column definitions and units
+- `site_data_summary_metadata.csv` — column definitions and units
   for the site summary table.
 
-- `analysis/sea_pheno_analysis_public.R` — full analysis script reproducing
+- `sea_pheno_analysis_public.R` — full analysis script reproducing
   all figures, tables, and statistical results reported in the paper.
 
 ## Reproducing the analysis
