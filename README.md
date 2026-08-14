@@ -33,13 +33,13 @@ Data and analysis code accompanying:
 - `site_data_summary_metadata.csv` — column definitions and units
   for the site summary table.
 
-- `sea_pheno_analysis_public.R` — full analysis script reproducing
-  all figures, tables, and statistical results reported in the paper.
+- `sea_pheno_analysis_zel_public_04082026.R` — full analysis script reproducing
+  all figures (and additional visuals), tables, and statistical results reported in the paper.
 
 ## Reproducing the analysis
 
-The analysis script reads `data/sea_phenology_combined_data.csv` and
-`data/sea_masting_literature_review_events.csv` directly. Figures and
+The analysis script reads `sea_phenology_combined_data.csv` and
+`sea_masting_literature_review_events.csv` directly. Figures and
 supplementary tables are written to an `output/` folder, created
 automatically if it does not exist.
 
@@ -49,7 +49,7 @@ colorspace, lme4, broom.mixed, scico.
 
 ```r
 # from the repo root
-source("analysis/sea_pheno_analysis_public.R")
+source("sea_pheno_analysis_public.R")
 ```
 
 ## Data availability note
