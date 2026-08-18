@@ -8,8 +8,11 @@ Data and analysis code accompanying:
 
 - `sea_phenology_combined_data.csv` — the full processed dataset used
   in all analyses: one row per site, month, and event type (flowering/
-  fruiting), synthesised from long-term monitoring, expert observations,
-  and a systematic literature review across 26 sites in Southeast Asia.
+  fruiting), and data source, synthesised from long-term monitoring,
+  expert observations, and a systematic literature review across 26
+  sites in Southeast Asia. Where multiple sources report on the same
+  site-month, all are retained as separate rows rather than collapsed;
+  downstream analyses select among them as needed.
 
 - `sea_masting_literature_review_events.csv` — masting events
   extracted from a systematic literature review of general flowering and
