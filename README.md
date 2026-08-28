@@ -54,6 +54,25 @@ colorspace, lme4, broom.mixed, scico.
 # from the repo root
 source("sea_pheno_analysis_public.R")
 ```
+## Data sources and terms explanation
+
+Defining terms in the dataset
+Data source types:
+Lit review: the evidence for this site-month of a masting event was found in literature review (Lieb et al. 2026). Short citations are provided for each site in the site_data_summary.csv. Some sites have multiple citations. Full references of these citations are provided in the section below.
+Full citations of lit review sources are included in sea_masting_literature_review_events.csv, column “citation”
+Published long term: refers to datasets sourced from literature that include raw tree reproduction proportions. Even though data may have been published, there was consultation with data providers to determine how to correctly interpret the dataset.
+These include:
+Numata_Satake_2022 – data published and additional material provided by Drs Shinya Numata and Akiko Satake for FRIM. (Numata et al. 2022)
+Chen_published_2017 – published dataset by Dr Yu-Yun Chen for Pasoh Forest Reserve. (Chen et al. 2018)
+
+Provided data: This includes datasets that were made available by contributors but are otherwise unpublished. Or not publicly available
+These include:
+YIARI_provided_2025 – Data provided for Gunung Tarak and Bukit Baka Bukit Raya National Park by organization, Yayasan Inisiasi Alam Rehabilitasi Indonesia (YIARI), thanks to Gail Campbell-Smith and Karmele Llano Sánchez.
+Marshall_provided_2025 – Data provided for Gunung Palung thanks to Andrew Marshall
+Additional contributed obs: refers to observations contributed by researchers based on their personal knowledge of a site, rather that from a dataset. These observations were provided via a monthly datasheet and contributors could indicate months of flowering, fruiting, no activity, or non-observed months.
+Contributors for this section include: 
+John Payne, Tetsuro Hosaka, Lisa Ong, Michael O’Brien, Shawn Lum, and Andrew Marshall
+
 
 ## Data availability note
 
