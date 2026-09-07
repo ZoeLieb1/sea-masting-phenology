@@ -96,7 +96,7 @@ If you use this data or code, please cite:
 
 > [Full paper citation once available]
 >
-> Dataset DOI: [Zenodo DOI once minted]
+> Dataset DOI: [![DOI](https://zenodo.org/badge/1313426754.svg)](https://doi.org/10.5281/zenodo.22632580)
 
 ## License
 
