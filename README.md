@@ -2,7 +2,11 @@
 
 Data and analysis code accompanying:
 
-> Lieb, Z. et al. (in review). [Paper title]. *Ecology Letters*.
+> Lieb, Z. et al. (in review). [Paper title]. *Nature Plants*.
+>
+> ****** Duplication error identified after journal submission.
+> New datasheets and code to resolve are included in this repo,
+> but this is not yet reflected in manuscript text.
 
 ## Contents
 
