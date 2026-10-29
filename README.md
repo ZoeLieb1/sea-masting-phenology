@@ -1,8 +1,8 @@
-# Southeast Asian Masting Phenology
+<img width="468" height="13" alt="image" src="https://github.com/user-attachments/assets/8b5ad03a-a921-4b23-abab-4a6570db419c" /># Southeast Asian Masting Phenology
 
 Data and analysis code accompanying:
 
-> Lieb, Z. et al. (in review). [Paper title]. *Nature Plants*.
+> Lieb, Z. et al. (in review).Five decades of observations reveal regional features of synchronized masting across Southeast Asia. *Nature Plants*.
 >
 ## Contents
 
